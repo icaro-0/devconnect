@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard — DevConnect</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@600&display=swap">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+  <a class="pular-conteudo" href="#conteudo-principal">Pular para o conteúdo principal</a>
+  <aside class="acessibilidade" aria-label="Opções de acessibilidade">
+    <strong>♿ Acessibilidade</strong>
+    <label class="opcao-acessibilidade"><input type="checkbox" id="dc-dark"> 🌙 Modo escuro</label>
+    <label class="opcao-acessibilidade"><input type="checkbox" id="dc-contrast"> ◐ Alto contraste</label>
+    <p class="ajuda-acessibilidade">As opções alteram a aparência desta página.</p>
+  </aside>
+
+  <div class="app">
+    <div class="lateral"><a class="logo" href="../index.html">DevConnect</a>
+      <ul>
+        <li><a class="ativo" href="dashboard.html">📊 Dashboard</a></li>
+        <li><a href="explorar.html">👥 Profissionais</a></li>
+        <li><a href="projetos.html">📁 Projetos</a></li>
+        <li><a href="mensagens.html">💬 Mensagens</a></li>
+        <li><a href="comissoes.html">🤝 Comissões</a></li>
+        <li><a href="perfil.html">👤 Perfil</a></li>
+        <li><a href="portfolio.html">🖼️ Portfólio</a></li>
+        <li><a href="configuracoes.html">⚙️ Configurações</a></li>
+        <li><a href="login.html">↪️ Sair</a></li>
+      </ul>
+    </div>
+    <div class="conteudo">
+      <div class="cabecalho"><strong>📊 Dashboard</strong></div>
+      <main id="conteudo-principal" class="principal">
+        <h2>Olá, Ana</h2>
+        <p class="secundario">Resumo das suas atividades.</p>
+        <h3>Desenvolvedor</h3>
+        <div class="grade">
+          <div class="resumo"><strong>3</strong><br>Serviços ativos</div>
+          <div class="resumo"><strong>5</strong><br>Propostas recebidas</div>
+          <div class="resumo"><strong>R$ 2.250</strong><br>Ganhos registrados</div>
+          <div class="resumo"><strong>128</strong><br>Visualizações do perfil</div>
+        </div>
+        <h3>Contratante</h3>
+        <div class="grade">
+          <div class="resumo"><strong>2</strong><br>Projetos publicados</div>
+          <div class="resumo"><strong>4</strong><br>Contratações em andamento</div>
+          <div class="resumo"><strong>6</strong><br>Serviços concluídos</div>
+        </div>
+        <h3>Comissões ativas</h3>
+        <p><a href="comissoes.html">Ver comissões</a></p>
+        <h3>Mensagens recentes</h3>
+        <p><a href="mensagens.html">Abrir mensagens</a></p>
+        <h3>Atividades recentes</h3>
+        <ul>
+          <li>Proposta recebida em "Website institucional".</li>
+          <li>Entrada registrada em "Modelagem 3D".</li>
+        </ul>
+      </main>
+    </div>
+  </div>
+  <footer class="rodape">
+    <p>DevConnect — Conectando talentos a novas oportunidades.</p>
+  </footer>
+</body>
+
+</html>

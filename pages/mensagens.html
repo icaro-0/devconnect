@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mensagens — DevConnect</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@600&display=swap">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+  <a class="pular-conteudo" href="#conteudo-principal">Pular para o conteúdo principal</a>
+  <aside class="acessibilidade" aria-label="Opções de acessibilidade">
+    <strong>♿ Acessibilidade</strong>
+    <label class="opcao-acessibilidade"><input type="checkbox" id="dc-dark"> 🌙 Modo escuro</label>
+    <label class="opcao-acessibilidade"><input type="checkbox" id="dc-contrast"> ◐ Alto contraste</label>
+    <p class="ajuda-acessibilidade">As opções alteram a aparência desta página.</p>
+  </aside>
+
+  <div class="app">
+    <div class="lateral"><a class="logo" href="../index.html">DevConnect</a>
+      <ul>
+        <li><a href="dashboard.html">📊 Dashboard</a></li>
+        <li><a href="explorar.html">👥 Profissionais</a></li>
+        <li><a href="projetos.html">📁 Projetos</a></li>
+        <li><a class="ativo" href="mensagens.html">💬 Mensagens</a></li>
+        <li><a href="comissoes.html">🤝 Comissões</a></li>
+        <li><a href="perfil.html">👤 Perfil</a></li>
+        <li><a href="portfolio.html">🖼️ Portfólio</a></li>
+        <li><a href="configuracoes.html">⚙️ Configurações</a></li>
+        <li><a href="login.html">↪️ Sair</a></li>
+      </ul>
+    </div>
+    <div class="conteudo">
+      <div class="cabecalho"><strong>💬 Mensagens</strong></div>
+      <main id="conteudo-principal" class="principal">
+        <div class="conversas">
+          <h3>Conversas</h3>
+          <p><strong>Empresa Alfa</strong><br><span class="secundario">Podemos fechar o escopo?</span></p>
+          <p><strong>Estúdio Beta</strong><br><span class="secundario">Obrigado pela proposta.</span></p>
+        </div>
+        <div class="chat">
+          <h3>Empresa Alfa</h3>
+          <div class="msg">Olá! Podemos fechar o escopo do site?</div>
+          <div class="msg-minha">Claro. Envio a proposta hoje.</div>
+          <form><label for="m">Mensagem</label><textarea id="m"></textarea><button type="submit">Enviar</button></form>
+        </div>
+      </main>
+    </div>
+  </div>
+  <footer class="rodape">
+    <p>DevConnect — Conectando talentos a novas oportunidades.</p>
+  </footer>
+</body>
+
+</html>

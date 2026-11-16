@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projetos e oportunidades — DevConnect</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@600&display=swap">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+  <a class="pular-conteudo" href="#conteudo-principal">Pular para o conteúdo principal</a>
+  <aside class="acessibilidade" aria-label="Opções de acessibilidade">
+    <strong>♿ Acessibilidade</strong>
+    <label class="opcao-acessibilidade"><input type="checkbox" id="dc-dark"> 🌙 Modo escuro</label>
+    <label class="opcao-acessibilidade"><input type="checkbox" id="dc-contrast"> ◐ Alto contraste</label>
+    <p class="ajuda-acessibilidade">As opções alteram a aparência desta página.</p>
+  </aside>
+
+  <div class="app">
+    <div class="lateral"><a class="logo" href="../index.html">DevConnect</a>
+      <ul>
+        <li><a href="dashboard.html">📊 Dashboard</a></li>
+        <li><a href="explorar.html">👥 Profissionais</a></li>
+        <li><a class="ativo" href="projetos.html">📁 Projetos</a></li>
+        <li><a href="mensagens.html">💬 Mensagens</a></li>
+        <li><a href="comissoes.html">🤝 Comissões</a></li>
+        <li><a href="perfil.html">👤 Perfil</a></li>
+        <li><a href="portfolio.html">🖼️ Portfólio</a></li>
+        <li><a href="configuracoes.html">⚙️ Configurações</a></li>
+        <li><a href="login.html">↪️ Sair</a></li>
+      </ul>
+    </div>
+    <div class="conteudo">
+      <div class="cabecalho"><strong>Projetos e oportunidades</strong></div>
+      <main id="conteudo-principal" class="principal">
+        <form>
+          <label for="b">Pesquisa</label><input type="text" id="b">
+          <label for="cat">Categoria</label><select id="cat">
+            <option>Todas</option>
+            <option>Desenvolvimento Web</option>
+            <option>Jogos</option>
+            <option>Design</option>
+            <option>Modelagem 3D</option>
+            <option>Aplicações Mobile</option>
+          </select>
+          <label for="orc">Faixa de orçamento</label><select id="orc">
+            <option>Qualquer</option>
+            <option>Até R$ 500</option>
+            <option>R$ 500 a R$ 1.000</option>
+          </select>
+          <label for="prazo">Prazo desejado</label><select id="prazo">
+            <option>Qualquer</option>
+            <option>Até 2 semanas</option>
+            <option>Até 1 mês</option>
+          </select>
+          <button type="submit">Filtrar</button>
+        </form>
+        <div class="card">
+          <h3>Website institucional</h3>
+          <p>Site com cinco páginas para empresa de serviços.</p>
+          <p class="secundario">R$ 1.000 — Desenvolvimento Web — HTML, CSS — Publicado em 10/11/2026 — Contratante:
+            Empresa Alfa</p><a href="#detalhes">Ver detalhes</a>
+        </div>
+        <div class="card">
+          <h3>Modelagem de personagem</h3>
+          <p>Personagem 3D para jogo.</p>
+          <p class="secundario">R$ 450 — Modelagem 3D — Blender — Publicado em 12/11/2026 — Contratante: Estúdio Beta
+          </p><a href="#detalhes">Ver detalhes</a>
+        </div>
+        <h2 id="detalhes">Detalhes do projeto</h2>
+        <p>Website institucional com cinco páginas: início, serviços, sobre, contato e portfólio. Prazo: 30 dias.</p>
+        <h3>Enviar proposta</h3>
+        <form><label for="valor">Valor proposto</label><input type="text" id="valor"><label
+            for="msg">Mensagem</label><textarea id="msg"></textarea><button type="submit">Enviar proposta</button>
+        </form>
+      </main>
+    </div>
+  </div>
+  <footer class="rodape">
+    <p>DevConnect — Conectando talentos a novas oportunidades.</p>
+  </footer>
+</body>
+
+</html>

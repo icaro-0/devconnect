@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadastro — DevConnect</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@600&display=swap">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/auth.css">
+</head>
+
+<body>
+  <a class="pular-conteudo" href="#conteudo-principal">Pular para o conteúdo principal</a>
+  <aside class="acessibilidade" aria-label="Opções de acessibilidade">
+    <strong>♿ Acessibilidade</strong>
+    <label class="opcao-acessibilidade"><input type="checkbox" id="dc-dark"> 🌙 Modo escuro</label>
+    <label class="opcao-acessibilidade"><input type="checkbox" id="dc-contrast"> ◐ Alto contraste</label>
+    <p class="ajuda-acessibilidade">As opções alteram a aparência desta página.</p>
+  </aside>
+
+  <header class="topo">
+    <div class="container">
+      <a class="logo" href="../index.html">DevConnect</a>
+      <nav><a href="../index.html">Início</a><a href="explorar.html">👥 Profissionais</a><a href="projetos.html">📁
+          Projetos</a><a href="../index.html#sobre">Sobre</a><a href="login.html">Entrar</a><a class="btn"
+          href="cadastro.html">Cadastre-se</a></nav>
+    </div>
+  </header>
+  <main id="conteudo-principal" class="auth">
+    <h1>Criar conta</h1>
+    <form action="dashboard.html">
+      <label for="nome">Nome completo</label><input type="text" id="nome">
+      <label for="usuario">Nome de usuário</label><input type="text" id="usuario">
+      <label for="email">E-mail</label><input type="email" id="email">
+      <label for="senha">Senha</label><input type="password" id="senha">
+      <label for="confirmar">Confirmação de senha</label><input type="password" id="confirmar">
+      <div class="opcao"><label><input type="checkbox" name="perfil"> Desenvolvedor</label>
+        <p class="secundario">Quero apresentar meus trabalhos e oferecer serviços.</p>
+      </div>
+      <div class="opcao"><label><input type="checkbox" name="perfil"> Contratante</label>
+        <p class="secundario">Quero encontrar profissionais e contratar serviços.</p>
+      </div>
+      <p class="nota">Você pode selecionar os dois perfis.</p>
+      <button type="submit">Criar conta</button>
+    </form>
+    <p>Já tem conta? <a href="login.html">Entrar</a></p>
+  </main>
+  <footer class="rodape">
+    <p>DevConnect — Conectando talentos a novas oportunidades.</p>
+  </footer>
+</body>
+
+</html>

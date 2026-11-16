@@ -1,0 +1,220 @@
+.topo {
+    background: #FFFFFF
+}
+
+.topo .container {
+    padding: 18px 5%
+}
+
+.logo {
+    float: left;
+    font-family: Manrope, Inter, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: #171717;
+    padding: 6px 0
+}
+
+.topo nav {
+    float: right;
+    padding: 4px 0
+}
+
+.topo nav a {
+    font-size: 15px;
+    color: #737373;
+    padding: 0 10px
+}
+
+.topo nav a.btn {
+    color: #FFFFFF;
+    padding: 8px 18px;
+    margin: 0 0 0 10px
+}
+
+.btn {
+    background: #4263EB;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none
+}
+
+.btn-sec {
+    background: #E5E5E5;
+    color: #171717;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none
+}
+
+.card {
+    background: #F5F5F5;
+    margin: 10px 0;
+    padding: 20px 24px
+}
+
+.claro .card {
+    background: #FFFFFF
+}
+
+.col2 {
+    float: left;
+    width: 44%;
+    margin: 1%;
+    padding: 2%
+}
+
+.col3 {
+    float: left;
+    width: 26%;
+    margin: 1%;
+    padding: 2%
+}
+
+.col5 {
+    float: left;
+    width: 15%;
+    margin: 0.5%;
+    padding: 1.5%;
+    text-align: center;
+    font-weight: 600
+}
+
+.lista-item {
+    background: #FFFFFF;
+    margin: 8px 0;
+    padding: 14px 24px
+}
+
+.tag {
+    background: #E5E5E5;
+    color: #171717;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 3px 10px
+}
+
+.tag-verde {
+    background: #D3F9D8;
+    color: #171717;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 10px
+}
+
+.tag-amarelo {
+    background: #FFF3BF;
+    color: #171717;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 10px
+}
+
+.tag-vermelho {
+    background: #FFE3E3;
+    color: #171717;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 10px
+}
+
+input,
+textarea,
+select {
+    font-family: Inter, Arial, sans-serif;
+    font-size: 15px;
+    background: #FFFFFF;
+    color: #171717;
+    width: 96%;
+    padding: 12px 2%;
+    margin: 4px 0 16px 0
+}
+
+textarea {
+    height: 100px
+}
+
+button {
+    font-family: Inter, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background: #4263EB;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    margin: 0
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    margin: 10px 0
+}
+
+th {
+    background: #F5F5F5;
+    color: #737373;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 12px
+}
+
+td {
+    background: #FFFFFF;
+    padding: 14px 12px;
+    font-size: 15px
+}
+
+.avatar {
+    background: #E5E5E5;
+    width: 56px;
+    height: 56px;
+    color: #4263EB;
+    text-align: center;
+    line-height: 56px;
+    font-weight: 600;
+    margin: 0 0 10px 0
+}
+
+.imagem {
+    background: #E5E5E5;
+    width: 100%;
+    height: 180px;
+    margin: 10px 0;
+    color: #737373;
+    text-align: center;
+    line-height: 180px;
+    font-size: 14px
+}
+
+.linha {
+    float: left;
+    width: 92%;
+    padding: 3% 4%;
+    margin: 0 0 10px 0;
+    background: #F5F5F5
+}
+
+.linha .avatar {
+    float: left;
+    margin: 0 20px 0 0
+}
+
+.linha .info {
+    float: left;
+    width: 80%
+}
+
+.rodape {
+    background: #F5F5F5;
+    color: #737373;
+    font-size: 14px;
+    text-align: center;
+    padding: 28px 0;
+    margin: 0;
+    width: 100%
+}

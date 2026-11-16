@@ -1,0 +1,24 @@
+.auth {
+    float: left;
+    width: 50%;
+    margin: 48px 21%;
+    padding: 4%;
+    background: #F5F5F5
+}
+
+.auth h1 {
+    font-size: 30px;
+    letter-spacing: -1px;
+    padding: 0 0 16px 0
+}
+
+.auth .opcao {
+    background: #FFFFFF;
+    margin: 8px 0;
+    padding: 12px 20px
+}
+
+.auth .opcao input {
+    width: auto;
+    margin: 0 8px 0 0
+}

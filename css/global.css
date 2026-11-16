@@ -1,0 +1,388 @@
+body {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    word-spacing: 0;
+    line-height: 1.7;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    color: #171717;
+    background: #FFFFFF;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0
+}
+
+h1,
+h2,
+h3 {
+    font-family: Manrope, Inter, Arial, sans-serif;
+    font-weight: 600;
+    color: #171717;
+    margin: 0
+}
+
+h1 {
+    font-size: 52px;
+    line-height: 1.15;
+    letter-spacing: -2px;
+    padding: 0
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.3;
+    letter-spacing: -0.5px;
+    padding: 0 0 16px 0
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 0 0 4px 0
+}
+
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 6px 0
+}
+
+ul,
+ol {
+    padding-left: 22px
+}
+
+a {
+    color: #4263EB;
+    text-decoration: none
+}
+
+label {
+    font-weight: 600;
+    font-size: 14px
+}
+
+header,
+section,
+footer,
+.app,
+.grade {
+    float: left;
+    width: 100%
+}
+
+.container {
+    float: left;
+    width: 90%;
+    margin: 0;
+    padding: 56px 5%
+}
+
+.claro {
+    background: #F5F5F5
+}
+
+.secundario {
+    color: #737373;
+    font-size: 14px
+}
+
+.nota {
+    font-style: italic;
+    color: #737373;
+    font-size: 14px
+}
+
+.centro {
+    text-align: center
+}
+
+#inicio {
+    background: #F5F5F5
+}
+
+#inicio .container {
+    text-align: center;
+    padding: 90px 5%
+}
+
+#inicio p {
+    font-size: 18px;
+    color: #737373;
+    padding: 16px 10% 24px 10%
+}
+
+
+
+:root {
+    color-scheme: light
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.pular-conteudo {
+    position: absolute;
+    left: 12px;
+    top: -60px;
+    z-index: 10001;
+    background: #171717;
+    color: #fff;
+    padding: 12px 16px;
+    border: 2px solid #fff;
+    font-weight: 700
+}
+
+.pular-conteudo:focus {
+    top: 12px
+}
+
+:focus-visible {
+    outline: 3px solid #1747d1 !important;
+    outline-offset: 3px !important
+}
+
+.acessibilidade {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    z-index: 10000;
+    width: 210px;
+    padding: 14px 16px;
+    background: #fff;
+    color: #171717;
+    border: 1px solid #b8b8b8;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, .14);
+    font-size: 13px;
+    line-height: 1.5
+}
+
+.acessibilidade strong {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px
+}
+
+.opcao-acessibilidade {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 7px 0;
+    padding: 7px 5px;
+    cursor: pointer;
+    font-size: 14px
+}
+
+.opcao-acessibilidade input {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    accent-color: #1747d1
+}
+
+.ajuda-acessibilidade {
+    font-size: 11px;
+    color: #555;
+    margin-top: 6px
+}
+
+/* Modo escuro */
+body:has(#dc-dark:checked) {
+    background: #111;
+    color: #ededed;
+    color-scheme: dark
+}
+
+body:has(#dc-dark:checked) h1,
+body:has(#dc-dark:checked) h2,
+body:has(#dc-dark:checked) h3 {
+    color: #f5f5f5
+}
+
+body:has(#dc-dark:checked) .topo,
+body:has(#dc-dark:checked) .conteudo,
+body:has(#dc-dark:checked) td {
+    background: #181818;
+    color: #ededed
+}
+
+body:has(#dc-dark:checked) .app,
+body:has(#dc-dark:checked) .claro,
+body:has(#dc-dark:checked) #inicio,
+body:has(#dc-dark:checked) .lateral,
+body:has(#dc-dark:checked) .rodape {
+    background: #111;
+    color: #d5d5d5
+}
+
+body:has(#dc-dark:checked) .card,
+body:has(#dc-dark:checked) .resumo,
+body:has(#dc-dark:checked) .linha,
+body:has(#dc-dark:checked) .conversas,
+body:has(#dc-dark:checked) .msg,
+body:has(#dc-dark:checked) .lista-item,
+body:has(#dc-dark:checked) .auth,
+body:has(#dc-dark:checked) th {
+    background: #222;
+    color: #ededed
+}
+
+body:has(#dc-dark:checked) .btn-sec,
+body:has(#dc-dark:checked) .tag {
+    background: #333;
+    color: #f5f5f5
+}
+
+body:has(#dc-dark:checked) input,
+body:has(#dc-dark:checked) textarea,
+body:has(#dc-dark:checked) select {
+    background: #222;
+    color: #fff;
+    border: 1px solid #777
+}
+
+body:has(#dc-dark:checked) .acessibilidade {
+    background: #1d1d1d;
+    color: #fff;
+    border-color: #777
+}
+
+body:has(#dc-dark:checked) .ajuda-acessibilidade {
+    color: #ccc
+}
+
+body:has(#dc-dark:checked) .lateral li a {
+    color: #ddd
+}
+
+body:has(#dc-dark:checked) .lateral li a.ativo {
+    background: #292929;
+    color: #fff
+}
+
+body:has(#dc-dark:checked) .msg-minha {
+    background: #2949bd;
+    color: #fff
+}
+
+/* Alto contraste: preto, branco e amarelo para links/foco */
+body:has(#dc-contrast:checked) {
+    background: #000 !important;
+    color: #fff !important
+}
+
+body:has(#dc-contrast:checked) * {
+    border-color: #fff !important;
+    box-shadow: none !important
+}
+
+body:has(#dc-contrast:checked) h1,
+body:has(#dc-contrast:checked) h2,
+body:has(#dc-contrast:checked) h3,
+body:has(#dc-contrast:checked) p,
+body:has(#dc-contrast:checked) li,
+body:has(#dc-contrast:checked) label,
+body:has(#dc-contrast:checked) strong,
+body:has(#dc-contrast:checked) td,
+body:has(#dc-contrast:checked) th,
+body:has(#dc-contrast:checked) .secundario,
+body:has(#dc-contrast:checked) .nota {
+    color: #fff !important
+}
+
+body:has(#dc-contrast:checked) header,
+body:has(#dc-contrast:checked) section,
+body:has(#dc-contrast:checked) footer,
+body:has(#dc-contrast:checked) .app,
+body:has(#dc-contrast:checked) .lateral,
+body:has(#dc-contrast:checked) .conteudo,
+body:has(#dc-contrast:checked) .card,
+body:has(#dc-contrast:checked) .resumo,
+body:has(#dc-contrast:checked) .linha,
+body:has(#dc-contrast:checked) .lista-item,
+body:has(#dc-contrast:checked) .auth,
+body:has(#dc-contrast:checked) .conversas,
+body:has(#dc-contrast:checked) .chat,
+body:has(#dc-contrast:checked) th,
+body:has(#dc-contrast:checked) td {
+    background: #000 !important;
+    color: #fff !important
+}
+
+body:has(#dc-contrast:checked) a {
+    color: #ffeb00 !important;
+    text-decoration: underline !important
+}
+
+body:has(#dc-contrast:checked) .btn,
+body:has(#dc-contrast:checked) button {
+    background: #ffeb00 !important;
+    color: #000 !important;
+    font-weight: 800;
+    border: 2px solid #fff !important
+}
+
+body:has(#dc-contrast:checked) .btn-sec,
+body:has(#dc-contrast:checked) .tag {
+    background: #000 !important;
+    color: #ffeb00 !important;
+    border: 1px solid #ffeb00 !important
+}
+
+body:has(#dc-contrast:checked) input,
+body:has(#dc-contrast:checked) textarea,
+body:has(#dc-contrast:checked) select {
+    background: #000 !important;
+    color: #fff !important;
+    border: 2px solid #fff !important
+}
+
+body:has(#dc-contrast:checked) .acessibilidade {
+    background: #000 !important;
+    color: #fff !important;
+    border: 2px solid #ffeb00 !important
+}
+
+body:has(#dc-contrast:checked) .ajuda-acessibilidade {
+    color: #fff !important
+}
+
+body:has(#dc-contrast:checked) :focus-visible {
+    outline: 4px solid #ffeb00 !important;
+    outline-offset: 3px !important
+}
+
+@media(prefers-reduced-motion:reduce) {
+    html {
+        scroll-behavior: auto !important
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+        scroll-behavior: auto !important
+    }
+}
+
+@media(max-width:700px) {
+    .acessibilidade {
+        right: 10px;
+        bottom: 10px;
+        width: 185px
+    }
+
+    .pular-conteudo:focus {
+        left: 8px;
+        top: 8px
+    }
+}
